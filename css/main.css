@@ -1,0 +1,65 @@
+/* We typically use one CSS file, named main.css to control all of our pages */
+
+/* this is a class we use to hide headings in our design */
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: 'Alkatra','Raleway', sans-serif;
+    background-color: aqua;
+}
+
+
+/* 1. --- Header ---  */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5em 0 1em 4em;
+  }
+  
+
+
+.h-logo {
+    float: left;
+   }
+  
+.logo-img {
+    width: 200px;
+  }
+  
+.nav {
+    float: right;
+    padding-right: 45px;
+  }
+
+
+
+
+.cart-img, .search-img {
+    width: 22px;
+  }
+
+  
+  
+.nav ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: start;
+  }
+  
+.nav li{
+    display: inline;
+    margin-right: 2em;
+   }
+  
+.nav li a {
+    color: #000000;
+    font-family: "brice-bold";
+    font-size: 22px;
+    text-decoration: none;
+  }

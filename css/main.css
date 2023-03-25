@@ -18,7 +18,8 @@ body  {
 }
 
 #container {
-  background-color: rgba(0, 255, 255, 0.324);
+background: rgb(131,58,180);
+background: linear-gradient(131deg, rgba(131,58,180,0.530952346759016) 0%, rgba(253,29,29,0.6149859602043943) 100%, rgba(252,176,69,1) 100%);
 }
 /* 1. --- Header ---  */
 
@@ -157,7 +158,8 @@ h3 {
   display: none;
   position: fixed;
   margin: auto;
-	background-color: rgba(0, 255, 255, 0.897);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 	flex-direction: column;
   border: 2px solid black;
   border-radius: 20px;

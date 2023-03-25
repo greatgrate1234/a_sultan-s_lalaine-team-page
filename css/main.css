@@ -2,64 +2,180 @@
 
 /* this is a class we use to hide headings in our design */
 .hidden {
-    display: none;
+  display: none;
 }
 
-body {
-    font-family: 'Alkatra','Raleway', sans-serif;
-    background-color: aqua;
+body  {
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
 }
 
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-color: rgba(0, 255, 255, 0.324);
+}
 /* 1. --- Header ---  */
 
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2.5em 0 1em 4em;
-  }
-  
+li, a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
 
 
-.h-logo {
-    float: left;
-   }
-  
-.logo-img {
-    width: 200px;
-  }
-  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: rgb(255, 255, 255);
+}
+
+#Logo {
+  cursor: pointer;
+  height: 50px;
+}
+
 .nav {
-    float: right;
-    padding-right: 45px;
-  }
+  list-style: none;
+}
 
+.nav li {
+  display: inline-block;
+  padding: 0 20px;
+}
 
-
-
-.cart-img, .search-img {
-    width: 22px;
-  }
-
-  
-  
-.nav ul{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    text-align: start;
-  }
-  
-.nav li{
-    display: inline;
-    margin-right: 2em;
-   }
-  
 .nav li a {
-    color: #000000;
-    font-family: "brice-bold";
-    font-size: 22px;
-    text-decoration: none;
-  }
+  transition: all 0.3s ease ;
+}
+
+.nav li a:hover {
+  color: aqua;
+  transform: scale(1.1);
+}
+
+button {
+  padding: 9px 20px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Kanit', sans-serif;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: rgb(49, 49, 49);
+  transform: scale(1.1);
+}
+
+
+/* 2. --- Section --- */
+
+h2 {
+  margin: 40px auto;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 40px 0 40px 0;
+}
+
+
+#memberSec {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+
+.memberPic {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  margin: 0 40px 0 40px;
+}
+
+#memberSec img {
+  max-width: 100%;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+
+.memberPic button {
+  margin: 40px 0 40px 0;
+}
+
+
+/* 3.  --- overlay ---*/
+
+
+#memberInfo {
+  display: flex;
+	width: 500px;
+  padding-top: 25px;
+	margin: 0 auto;
+	flex-direction: column;
+	position: relative;
+	align-items: center;
+}
+
+
+#closeBtn, #closeBtn2 {
+  color: white;
+	font-size: 15px;
+	width: 50px;
+	height: 50px;
+	background-color: #4af3ff;
+  border: solid 1px black;
+	border-radius: 30px;
+  margin-right: 900px;
+  cursor: pointer;
+  position: absolute;
+}
+
+#overlay, #overlay2 {
+  display: none;
+  position: fixed;
+  margin: auto;
+	background-color: rgba(0, 255, 255, 0.897);
+	flex-direction: column;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 85%;
+	height: 85%;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+
+/* 4.  --- footer ---*/
+
+footer {
+  margin: 0 auto;
+  padding: 8px 0 8px 0;
+  font-size: 18px;
+  background-color: white;
+}
+
+
+
+
+
+
+

@@ -2,50 +2,86 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <title>MMED-1056 Folder Setup Template</title>
+    <title>The Singing Co.</title>
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Raleway:wght@100;300;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/music.png">
 </head>
+
 <body>
-    <!-- Content will go here -->
-<h1 class="hidden">Our Song</h1>
+  <div id="container">
+
+
   <header>
-    <section class="header">
-      <h2 class="hidden">Singing Team co.</h2>
-      <div class="h-logo">
-        <a href="index.html">
-            <img class="logo-img" src="" alt="">
-        </a>
-      </div>
-        <div class="nav">
-          <nav aria-label="Main Navigation">
-            <h3 class="hidden">Header Nav</h3>
-              <ul>
-                <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Music</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                <li>
-                  <a class="cart-logo" href="#">
-                    <img class="cart-img" src="images/shopping-cart.png" alt="Cart">
-                  </a>
-                </li>
-                <li>
-                  <a class="search-logo" href="#">
-                    <img class="search-img" src="images/search.png" alt="Search">
-                  </a>
-                </li>
-              </ul>
-          </nav>
-        </div>
-    </section>
+    <img src="images/music.png" alt="Singing Co." id="Logo">
+    <nav>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="#"><button>Book Now!</button></a>
   </header>
-    <!-- Link to JS file at bottom, just before closing body tag -->
-    <script src="js/main.js"></script>
+
+  <main>
+    <h1 class="hidden">Dynamic Team Page</h1>
+      <h2>The Singing Co.</h2>
+
+      <section id="memberSec">
+        <div class="memberPic">
+          <h3>Abdullah Sultan</h3>
+            <img src="images/image-coming-soon-placeholder2.png" alt="Abdullah Sultan">
+              <button id="aButton">Learn more about Abdul</button>
+        </div>
+  
+        <div class="memberPic">
+          <h3>Lalaine Siy</h3>
+            <img src="images/image-coming-soon-placeholder2.png" alt="Lalaine Siy">
+              <button id="lButton">Learn more about Lil</button>
+        </div>
+      </section>
+  </main>
+
+  <div id="overlay">
+		<div id="memberInfo">
+			<button id="closeBtn">X</button>
+      <h3> Abdullah Sultan - Interactive Media Design Student  </h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, officia. Tempora numquam, possimus deleniti enim maxime quo esse ullam natus provident velit accusantium, placeat eum consectetur odit asperiores maiores minima?</p>
+      <br>
+      <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero totam nostrum aliquid voluptatibus, possimus, optio maxime, itaque enim voluptatem iusto repellendus aspernatur at numquam reiciendis! Assumenda vitae quam laudantium voluptatibus. </p>
+      <br>
+      <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero totam nostrum aliquid voluptatibus, possimus, optio maxime, itaque enim voluptatem iusto repellendus aspernatur at numquam reiciendis! Assumenda vitae quam laudantium voluptatibus. </p>
+		</div>		
+	</div>
+
+  
+  <div id="overlay2">
+		<div id="memberInfo">
+			<button id="closeBtn2">X</button>
+      <h3> Lalaine Siy - Interactive Media Design Student</h3>
+      <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero totam nostrum aliquid voluptatibus, possimus, optio maxime, itaque enim voluptatem iusto repellendus aspernatur at numquam reiciendis! Assumenda vitae quam laudantium voluptatibus. </p>
+      <br>
+      <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero totam nostrum aliquid voluptatibus, possimus, optio maxime, itaque enim voluptatem iusto repellendus aspernatur at numquam reiciendis! Assumenda vitae quam laudantium voluptatibus. </p>
+      <br>
+      <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero totam nostrum aliquid voluptatibus, possimus, optio maxime, itaque enim voluptatem iusto repellendus aspernatur at numquam reiciendis! Assumenda vitae quam laudantium voluptatibus. </p>
+		</div>		
+	</div>
+
+
+</div>
+
+  <footer>
+    Copyright &copy; 2023 The Singing Co.
+  </footer>
+
+
+
+  <script src="js/main.js"></script>
 </body>
 </html>

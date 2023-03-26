@@ -31,3 +31,30 @@
     }
 
 })();
+
+/* FOR THE ABOUT.HTML */
+console.log('js working!');
+let theAboutButtons = document.querySelectorAll("main button");
+
+let team = {
+    abdullah:  {
+        name: 'Abdulla Sultan',
+        role: 'The cool guy',
+        nickname: 'Sultan',
+        bio: 'Hello I have 4.0 grades.'
+        },
+    lalaine:  {
+        name: 'Lalaine',
+        role: 'Haha',
+        nickname: 'LiL',
+        bio: 'Hi, I try my best in class.'
+    }
+}
+
+function getTeamData()  {
+    let teamMember = this.dataset.member;
+    console.log(team[teamMember]);
+
+    document.querySelector('.member-name').textContent = team[teamMember].name;
+}
+theAboutButtons.forEach(button => button.addEventListener('click',getTeamData));

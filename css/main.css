@@ -5,6 +5,10 @@
   display: none;
 }
 
+html {
+  box-sizing: border-box; 
+}
+
 body  {
   font-family: 'Kanit', sans-serif;
   text-align: center;
@@ -125,14 +129,18 @@ h3 {
 
 #memberInfo {
   display: flex;
-	width: 500px;
-  padding-top: 25px;
+	width: auto;
+  height: auto;
+  padding: 30px 100px 30px 100px;
 	margin: 0 auto;
 	flex-direction: column;
 	position: relative;
 	align-items: center;
 }
 
+#memberInfo p {
+  padding-top: 16px;
+}
 
 #closeBtn, #closeBtn2 {
   color: white;

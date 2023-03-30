@@ -96,6 +96,11 @@ h3 {
   margin: 40px 0 40px 0;
 }
 
+.title p{
+  margin: 60px 0 50px 0;
+  font-size: 40px;
+  font-weight: lighter;
+}
 
 #memberSec {
 	width: 80%;
@@ -118,10 +123,20 @@ h3 {
   border-radius: 20px;
 }
 
+#memberSec img {
+  transition: 0.3s ease-in-out;
+}
+
+#memberSec img:hover {
+  transform: scale(103%);
+}
+
 
 .memberPic button {
-  margin: 40px 0 40px 0;
+  margin: 40px 0 80px 0;
 }
+
+
 
 
 /* 3.  --- overlay ---*/
@@ -140,6 +155,9 @@ h3 {
 
 #memberInfo p {
   padding-top: 16px;
+  text-align: start;
+  font-size: 22px;
+  font-weight: lighter;
 }
 
 #closeBtn, #closeBtn2 {

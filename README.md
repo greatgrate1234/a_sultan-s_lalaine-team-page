@@ -2,18 +2,16 @@
 
 HTML, CSS &amp; JavaScript team webpage. Js Triggers show/hide dynamic profiles of contributors.  
 
-##Credits
+## Credits
 
-Abdullah Sultan
-<br>
-Lalaine Siy
+Abdullah Sultan <br> Lalaine Siy
 
-##Installation
+## Installation
 
 Not Applicable
 
 
-##Contributing
+## Contributing
 
 Fork it!
 

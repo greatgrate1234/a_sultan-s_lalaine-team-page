@@ -4,7 +4,7 @@ HTML, CSS &amp; JavaScript team webpage. Js Triggers show/hide dynamic profiles 
 
 ## Credits
 
-    Abdullah Sultan <br> Lalaine Siy
+    Abdullah Sultan & Lalaine Siy
 
 ## Installation
 

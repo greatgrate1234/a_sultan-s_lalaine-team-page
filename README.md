@@ -4,16 +4,16 @@ HTML, CSS &amp; JavaScript team webpage. Js Triggers show/hide dynamic profiles 
 
 ## Credits
 
-Abdullah Sultan <br> Lalaine Siy
+    Abdullah Sultan <br> Lalaine Siy
 
 ## Installation
 
-Not Applicable
+    Not Applicable
 
 
 ## Contributing
 
-Fork it!
+    Fork it!
 
     Create your feature branch: git checkout -b my-new-feature
     Commit your changes

@@ -30,7 +30,7 @@ HTML, CSS &amp; JavaScript team webpage. Js Triggers show/hide dynamic profiles 
 
     The license holder or copyright owner shall not be liable for any claim, damages or other liability arising from the use, distribution, or modification of the software.
 
-    The license holder or copyright owner shall not be liable for any indirect, special, incidental, or consequential damages, including without limitation loss of         profits, data, or use, incurred by the licensee or any third party, even if the license holder or copyright owner has been advised of the possibility of such damages.
+    The license holder or copyright owner shall not be liable for any indirect, special, incidental, or consequential damages, including without limitation loss of    profits, data, or use, incurred by the licensee or any third party, even if the license holder or copyright owner has been advised of the possibility of such damages.
 
     If the software is modified and distributed, the new software must be released under the same MIT License terms.
 

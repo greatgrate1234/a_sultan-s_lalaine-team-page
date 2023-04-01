@@ -39,4 +39,4 @@ HTML, CSS &amp; JavaScript team webpage. Js Triggers show/hide dynamic profiles 
 
 ## History 
     
-    est. Mar 24, 2023
+    Est. March 24, 2023
